@@ -9,6 +9,11 @@ int main()
 	int a = 123;
 	size_t result;
 
-	
+
+	if (ft_isalnum(c))
+		printf("%c - alphanumeric\n", c);
+	else
+		printf("%c - isn't alphanumeric\n", c);
+
 	return 0;
 }

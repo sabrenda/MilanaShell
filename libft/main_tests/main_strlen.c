@@ -9,6 +9,8 @@ int main()
 	int a = 123;
 	size_t result;
 
-	
+	result = ft_strlen(str);
+	printf("Длина строки: [%s] равна [%ld]\n", str, result);
+
 	return 0;
 }

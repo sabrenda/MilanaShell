@@ -9,6 +9,10 @@ int main()
 	int a = 123;
 	size_t result;
 
-	
+	if (ft_isdigit(c))
+		printf("%c - цифра\n", c);
+	else
+		printf("%c - не является цифрой\n", c);
+
 	return 0;
 }

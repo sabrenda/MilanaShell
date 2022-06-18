@@ -9,6 +9,7 @@ int main()
 	int a = 123;
 	size_t result;
 
-	
+	printf("Заглавная литера [%c]\n", ft_toupper(0x6d));
+
 	return 0;
 }

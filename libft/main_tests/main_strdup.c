@@ -9,6 +9,5 @@ int main()
 	int a = 123;
 	size_t result;
 
-	
 	return 0;
 }
