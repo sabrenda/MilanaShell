@@ -4,8 +4,8 @@ HEADER = src/libft.h
 
 SRC =	src/ft_isalnum.c	src/ft_tolower.c	\
 		src/ft_isalpha.c	src/ft_isascii.c	src/ft_isdigit.c	\
-		src/ft_isprint.c	src/ft_strlen.c	src/ft_toupper.c	\
-		src/ft_calloc.c		src/ft_strdup.c
+		src/ft_isprint.c	src/ft_strlen.c		src/ft_toupper.c	\
+		src/ft_calloc.c		src/ft_strdup.c		src/ft_atoi.c
 
 OBJ = $(SRC:.c=.o)
 

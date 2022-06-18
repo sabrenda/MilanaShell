@@ -10,6 +10,7 @@ int ft_isdigit(int c);
 int ft_isprint(int c);
 size_t ft_strlen(const char *s);
 int ft_tolower(int c);
+int ft_atoi(const char *str);
 int ft_toupper(int c);
 void *ft_calloc(size_t nmemb, size_t size);
 char *ft_strdup(const char *s);
